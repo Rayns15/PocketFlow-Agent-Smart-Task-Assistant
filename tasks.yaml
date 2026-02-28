@@ -1,0 +1,43 @@
+- task: asd
+  priority: HIGH_PRIORITY
+  time: astazi la ora 16:45
+  full_yaml:
+    intent: process_and_breakdown_task
+    entities:
+      task_name: asd
+    priority: high_priority
+    micro_steps:
+    - Review task requirements
+    - 'Manual execution required (LLM Error: Expecting value: line 1 column 1 (char
+      0))'
+    suggested_schedule: astazi la ora 16:45
+    actions:
+    - save_to_memory('asd')
+- task: interview2
+  priority: LOW_PRIORITY
+  time: astazi la ora 16:39
+  full_yaml:
+    intent: process_and_breakdown_task
+    entities:
+      task_name: interview2
+    priority: low_priority
+    micro_steps:
+      step: Research the company and its products/services
+      estimated_minutes: 20
+    suggested_schedule: astazi la ora 16:39
+    actions:
+    - save_to_memory('interview2')
+- task: CEO
+  priority: HIGH_PRIORITY
+  time: '2026-02-27 16:44:00'
+  full_yaml:
+    intent: process_and_breakdown_task
+    entities:
+      task_name: CEO
+    priority: high_priority
+    micro_steps:
+      step: Schedule a meeting with the marketing team to discuss the new campaign.
+      estimated_minutes: 15
+    suggested_schedule: '2026-02-27 16:44:00'
+    actions:
+    - save_to_memory('CEO')
