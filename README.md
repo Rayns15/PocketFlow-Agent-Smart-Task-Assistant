@@ -34,7 +34,7 @@ ollama pull gemma:2b
 **1. Clone the repository**
 
 ```bash
-git clone https://github.com/Rayns15/Smart-Task-Assistant.git
+git clone https://github.com/Rayns15/PocketFlow-Agent-Smart-Task-Assistant.git
 cd smart-task-assistant
 
 ```
